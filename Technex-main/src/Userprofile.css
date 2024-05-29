@@ -1,0 +1,104 @@
+/* UserProfile.css */
+.user-profile {
+    padding: 20px;
+    font-family: "montserrat", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-profile h1, .user-profile h2 {
+    text-align: center;
+  }
+  
+  .user-info-chart {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjusted width */
+    order: 2; /* Ensure user-info is on the right */
+  }
+  
+  .profile-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+  }
+  
+  .chart-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1; /* Ensure chart-section is on the left */
+  }
+  
+  .chart-container {
+    width: 400px; /* Adjusted width */
+    height: 300px; /* Adjusted height */
+    position: relative;
+  }
+  
+  .test-reports {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .user-profile table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .user-profile table th, .user-profile table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .user-profile table th {
+    background-color: #28679e;
+    color: white;
+  }
+  
+  .user-profile table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-profile table button {
+    background-color: #28679e;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-profile table button:hover {
+    background-color: #ff782d;
+  }
+  .user-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
